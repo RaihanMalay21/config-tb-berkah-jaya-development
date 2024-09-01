@@ -5,7 +5,7 @@ go 1.23
 toolchain go1.23.0
 
 require (
-
+	github.com/RaihanMalay21/models_TB_Berkah_Jaya v0.0.0-20240810142202-0d5c147efc3b
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/gorilla/sessions v1.4.0
 	gorm.io/driver/mysql v1.5.7
