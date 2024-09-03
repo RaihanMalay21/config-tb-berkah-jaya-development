@@ -26,5 +26,5 @@ func DB_Connection() {
 	db.AutoMigrate(&models.Pembelian_Per_Item{})
 	db.AutoMigrate(&models.HadiahUser{})
 
-	DB = &db
+	DB = db
 }
